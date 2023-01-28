@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/package_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="com.android"
+            android:paddingEnd="6dip"
+            android:paddingStart="12dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/last_time_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="usage time"
+            android:visibility="gone"
+            android:paddingEnd="6dip"
+            android:paddingStart="12dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/usage_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="last time usage"
+            android:layout_marginTop="5dp"
+            android:paddingEnd="6dip"
+            android:paddingStart="12dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginTop="10dp"
+         android:background="@color/black"/>
+    </LinearLayout>
+</layout>
